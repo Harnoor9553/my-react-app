@@ -4,6 +4,7 @@ import Food from './Food.jsx'
 import Card from './Card.jsx'
 import UserGreeting from './UserGreeting.jsx';
 import List from './List.jsx';
+import Counter from './Counter.jsx';
 
 function App() {
   
@@ -26,6 +27,7 @@ return(
   <Food></Food>
   <Footer></Footer>
   <Card></Card>
+  <Counter/>
   <UserGreeting isLoggedIn={true} username="BroCode"></UserGreeting>
   <h1>Low calorie fruits</h1>
   

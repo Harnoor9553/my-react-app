@@ -33,3 +33,27 @@
   border-radius: 5px;
   background-color: aqua;
   }
+
+  .counter-container{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+  .count-display{
+    font-size: 10em;
+    margin-top:0;
+    margin-bottom: 50px;
+  }
+  .counter-button{
+    width: 150px;
+    height: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0px 5px;
+    background-color: beige;
+    cursor:pointer;
+
+  }
+  .counter-button:hover{
+    background-color: aquamarine;
+  }
