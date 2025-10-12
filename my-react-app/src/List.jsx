@@ -1,17 +1,22 @@
 
 
-function List(){
+function List(props){
 
-    const fruits = [{name:"apple",calories:95},
-                    {name:"orange",calories:90},
-                    {name:"banana",calories:105},
-                    {name:"coconut",calories:159},
-                    {name:"mango",calories:95},];
+    const itemList=props.items;
 
-    const listItems = fruits.map(fruit => <li key={fruit.id}>{fruit.name}: &nbsp;
-                                <b>{fruit.calories}</b></li>);
+const ListItems = itemList.filter(itemList => itemList.calories < 100);
 
-    return(<ul>{listItems}</ul>);
+const listItems = lowCalFruits.map(lowCalFruit => 
+    <li key={item.id}>
+        {item.name}: &nbsp;
+        <b>{item.calories}</b>
+    </li>
+);
+
+return( <>
+<h3>{category}</h3>
+<ol>{listItems}</ol>;
+</>);
 }
 
 export default List
