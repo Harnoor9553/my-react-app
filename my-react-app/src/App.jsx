@@ -5,6 +5,7 @@ import Card from './Card.jsx'
 import UserGreeting from './UserGreeting.jsx';
 import List from './List.jsx';
 import Counter from './Counter.jsx';
+import MyComponent from './MyComponent'
 
 function App() {
   
@@ -33,6 +34,7 @@ return(
   
   <List items={fruits} category="Fruits" />
   <List items={veggies} category="vegetables" />
+  <MyComponent></MyComponent>
   </>
 );
 }
