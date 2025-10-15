@@ -6,7 +6,7 @@ import UserGreeting from './UserGreeting.jsx';
 import List from './List.jsx';
 import Counter from './Counter.jsx';
 import MyComponent from './MyComponent'
-
+import Car from './Car'
 function App() {
   
     const fruits = [
@@ -35,6 +35,7 @@ return(
   <List items={fruits} category="Fruits" />
   <List items={veggies} category="vegetables" />
   <MyComponent></MyComponent>
+  <Car></Car>
   </>
 );
 }
